@@ -1,0 +1,22 @@
+package com.sapient.java.training.ACETraining.Fibonacci;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class FibonacciUsingDynamicProgrammingTest {
+
+	private FibonacciUsingDynamicProgramming fibonacciUsingDynamicProgramming;
+	
+	@Before
+	public void setUp() throws Exception {
+		fibonacciUsingDynamicProgramming = new FibonacciUsingDynamicProgramming();
+	}
+
+	@Test
+	public void test() {
+		
+	}
+
+}

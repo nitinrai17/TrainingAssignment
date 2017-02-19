@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FibonacciUsingIterativeTest" project="Fibonacci" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0">
+    <testcase name="testFiboOneNumberScenario" classname="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0"/>
+    <testcase name="testPrintFiboSuccess" classname="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0"/>
+    <testcase name="testFiboSuccess" classname="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0"/>
+    <testcase name="testFiboNegativeNumberScenario" classname="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0"/>
+    <testcase name="testFiboZeroNumberScenario" classname="com.sapient.java.training.ACETraining.Fibonacci.FibonacciUsingIterativeTest" time="0.0"/>
+  </testsuite>
+</testrun>

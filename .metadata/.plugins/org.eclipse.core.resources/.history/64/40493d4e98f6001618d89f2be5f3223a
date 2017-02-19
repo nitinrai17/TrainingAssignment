@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.sapient.java.training.ACETraining.Fibonacci;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * @author Nitin
+ *
+ */
+public class FibonacciUsingRecursionTest {
+
+	private FibonacciUsingRecursion fibonacciUsingRecursion ;
+	
+	@Before
+	public void setUp() throws Exception {
+		fibonacciUsingRecursion = new FibonacciUsingRecursion();
+	}
+
+	@Test
+	public void testFibo() {
+		//given 
+		int number = 10;
+		//when 
+		fibonacciUsingRecursion.fibo(number);
+		
+		//then
+		
+		fail("Not yet implemented");
+	}
+	
+	
+
+}

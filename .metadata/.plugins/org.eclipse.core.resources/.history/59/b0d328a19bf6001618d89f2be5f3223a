@@ -1,0 +1,33 @@
+package com.sapient.java.training.ACETraining.Fibonacci;
+/**
+ * 
+ * @author Nitin
+ * Java program to print Fibonacci serier using Recursion.
+ */
+
+public class FibonacciUsingIterative {
+
+	public static void main(String[] args) {
+		FibonacciUsingIterative fibonacciUsingRecursion = new FibonacciUsingIterative();
+		fibonacciUsingRecursion.printFibo(10);
+		 
+	}
+
+	void printFibo(int n) {
+		System.out.println("Print Fibonacci Series using Recursion :-");
+		for(int i=0; i < n ; i++){
+			System.out.println(i +": "+fibo(i));
+		}
+	}
+	
+	int fibo(int n) {
+		if (n <= 0) {
+			return 0;
+		} else if (n == 1) {
+			return 1;
+		}
+		return fibo(n - 1) + fibo(n - 2);
+	}
+
+}
+ 

@@ -1,0 +1,65 @@
+/**
+ * 
+ */
+package com.sapient.java.training.ACETraining.Fibonacci;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * @author Nitin
+ *
+ */
+public class FibonacciUsingRecursionTest {
+
+	private FibonacciUsingRecursion fibonacciUsingRecursion ;
+	
+	@Before
+	public void setUp() throws Exception {
+		fibonacciUsingRecursion = new FibonacciUsingRecursion();
+	}
+
+	@Test
+	public void testFiboSuccess() {
+		//given 
+		int number = 9;
+		//when 
+		int fibo = fibonacciUsingRecursion.fibo(number);
+		//then
+		assertEquals(34, fibo);
+	}
+	
+	@Test
+	public void testFiboNegativeNumberScenario() {
+		//given 
+		int number = -9;
+		//when 
+		int fibo = fibonacciUsingRecursion.fibo(number);
+		//then
+		assertEquals(0, fibo);
+	}
+	
+	@Test
+	public void testFiboZeroNumberScenario() {
+		//given 
+		int number = 0;
+		//when 
+		int fibo = fibonacciUsingRecursion.fibo(number);
+		//then
+		assertEquals(0, fibo);
+	}
+	
+	@Test
+	public void testFiboOneNumberScenario() {
+		//given 
+		int number = 1;
+		//when 
+		int fibo = fibonacciUsingRecursion.fibo(number);
+		//then
+		assertEquals(1, fibo);
+	}
+	
+
+}
